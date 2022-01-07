@@ -1,2 +1,5 @@
-package abstractfactory;public class ProjectManager {
+package abstractfactory;
+
+public interface ProjectManager {
+    void manageProject();
 }

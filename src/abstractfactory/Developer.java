@@ -1,2 +1,5 @@
-package abstractfactory;public class Developer {
+package abstractfactory;
+
+public interface Developer {
+    void writeCode();
 }

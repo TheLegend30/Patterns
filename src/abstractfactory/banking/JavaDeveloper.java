@@ -1,2 +1,10 @@
-package abstractfactory.banking;public class JavaDeveloper {
+package abstractfactory.banking;
+
+import abstractfactory.Developer;
+
+public class JavaDeveloper implements Developer {
+    @Override
+    public void writeCode() {
+        System.out.println("Java dev writes java code");
+    }
 }

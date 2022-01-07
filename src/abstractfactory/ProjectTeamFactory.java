@@ -1,2 +1,9 @@
-package abstractfactory;public class ProjectTeamFactory {
+package abstractfactory;
+
+public interface ProjectTeamFactory {
+    Developer getDeveloper();
+
+    Tester getTester();
+
+    ProjectManager getProjectManager();
 }

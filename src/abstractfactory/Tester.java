@@ -1,2 +1,5 @@
-package abstractfactory;public class Tester {
+package abstractfactory;
+
+public interface Tester {
+    void testCode();
 }
